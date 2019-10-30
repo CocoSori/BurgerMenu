@@ -10,7 +10,7 @@ const BurgerConstructorItem = ({ name, value, cost, inc, dec }) => {
         <button className="btn btn-success" onClick={inc}>
           +1
         </button>
-        <button className="btn btn-danger" onClick={dec}>
+        <button disabled={!value} className="btn btn-danger" onClick={dec}>
           -1
         </button>
       </div>

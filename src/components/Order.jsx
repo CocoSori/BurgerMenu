@@ -29,7 +29,7 @@ const Order = ({ orderList, removeOrderItem, sendOrder }) => {
         data-toggle="modal"
         data-target="#exampleModalCenter"
       >
-        Complete Order
+        Finish Order
       </button>
     </div>
   );
